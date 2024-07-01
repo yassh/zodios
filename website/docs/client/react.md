@@ -126,7 +126,7 @@ Compared to native react-query infinite query, you also need to provide a functi
 
 **Example**:
 ```ts
-  const { data: userPages, isFectching, fetchNextPage } = apiHooks.useInfiniteQuery(
+  const { data: userPages, isFetching, fetchNextPage } = apiHooks.useInfiniteQuery(
     "/users",
     {
       // request 10 users per page
@@ -161,7 +161,7 @@ Compared to native react-query infinite query, you also need to provide a functi
 
 **Example**:
 ```ts
-  const { data: userPages, isFectching, fetchNextPage } = apiHooks.useImmutableInfiniteQuery(
+  const { data: userPages, isFetching, fetchNextPage } = apiHooks.useImmutableInfiniteQuery(
     "/users/search",
     {
       // search for users named John
